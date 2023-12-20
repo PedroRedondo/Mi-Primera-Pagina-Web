@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f3eaea;
+    color: #333;
+    margin: 20px;
+  }
+
+ .title{
+    font-style: italic;
+    font-size: 2em;   
+ }
+
+ .imagen{
+    width: auto;
+ }
+
+
+ .list{
+    transition: 1s;
+ }
+
+ .list:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 161, 161);
+    font-size: larger;
+    border-style: initial;
+    border-radius: 0.5em;
+    border-width: 2em;
+    
+ }
+
+
+
+
+#antetitulo{
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+#titulo{
+    background-color: bisque;
+    font-size: 3em;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+ }
